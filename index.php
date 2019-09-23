@@ -20,24 +20,6 @@
     <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;form</span> <span style="color: #0000CC">method=</span><span style="background-color: #fff0f0">&quot;post&quot;</span> <span style="color: #0000CC">action=</span><span style="background-color: #fff0f0">&quot;https://formtester.goodbytes.be/post.php&quot;</span><span style="color: #007700">&gt;</span></pre></div>
     <p>After that, submit your form and you'll see all the data that can be received from it. Good luck!</p>
 
-
-    <form method="post" action="http://localhost:8080/post.php">
-        <input type="text" name="firstname">
-        <input type="text" name="lastname">
-
-        <input list="browsers" name="browsers">
-
-<datalist id="browsers">
-  <option value="Internet Explorer">
-  <option value="Firefox">
-  <option value="Chrome">
-  <option value="Opera">
-  <option value="Safari">
-</datalist>
-
-  <input type="submit" value="send">
-        </form>
-
     <?php include_once 'footer.php'; ?>
 </body>
 </html>

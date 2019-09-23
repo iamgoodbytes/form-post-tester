@@ -1,0 +1,9 @@
+footer {
+    margin-top: 3em;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0.2em;
+    color: #555;
+}
